@@ -24,13 +24,13 @@ How do handle time and calls per day trend over time?
 
 The dashboard aggregates inbound call records with the following attributes:
 
--Call date and time
+Call date and time
 
--Primary inquiry category
+Primary inquiry category
 
--Caller type
+Caller type
 
--Handle time
+Handle time
 
 Date timeline supports filtering by:
 
