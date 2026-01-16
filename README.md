@@ -24,21 +24,12 @@ How do handle time and calls per day trend over time?
 
 The dashboard aggregates inbound call records with the following attributes:
 
-Call date and time
+-Call date and time
+-Primary inquiry category
+-Caller type
+-Handle time
 
-Primary inquiry category
-
-Caller type
-
-Handle time
-
-Call volume counts
-
-Date dimensions support filtering by:
-
-Quarter
-
-Day
+Date timeline supports filtering by:
 
 Custom date ranges
 
@@ -56,9 +47,7 @@ Inquiry-level call counts
 
 Implemented Month-over-Month (MoM) % change calculations to identify shifts in inquiry behavior
 
-Enabled drill-down analysis to:
-
-Select a specific inquiry
+Enabled specific inquiry analysis to:
 
 View call volume trends over time
 
@@ -101,9 +90,7 @@ Metrics update dynamically based on date and inquiry filters
 
 Interactive Filtering
 
-Quarter-level filtering
-
-Day-level filtering
+Custom Date Filtering
 
 Inquiry selection for focused trend analysis
 
