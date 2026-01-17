@@ -107,7 +107,7 @@ Metrics update dynamically based on date and inquiry filters
 
 Custom date range selection
 
-Inquiry selection for focused trend analysis
+Inquiry and User selection for focused trend analysis
 
 ## KEY INSIGHTS 
 
