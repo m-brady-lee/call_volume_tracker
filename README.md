@@ -1,10 +1,10 @@
 # CALL VOLUME & INQUIRY TREND DASHBOARD
 
-An interactive operational dashboard built to monitor inbound call volume, inquiry drivers, caller types, and performance metrics over time. Designed to support management reporting, issue detection, and trend analysis in a regulated customer service environment.
+An interactive operational analytics dashboard designed to monitor inbound call volume, inquiry drivers, caller mix, and performance metrics over time. Built to support management reporting, early issue detection, and workload analysis in a regulated customer service environment.
 
 ## OBJECTIVE
 
-To provide a centralized, interactive view of call volume patterns and inquiry behavior that enables teams to identify emerging issues, monitor workload distribution, and evaluate operational performance across time periods.
+Provide a centralized, filterable view of call activity that enables teams to identify emerging inquiry trends, monitor operational workload, and assess performance patterns across time periods and inquiry types.
 
 ## KEY QUESTIONS ANSWERED
 
@@ -22,23 +22,27 @@ How do handle time and calls per day trend over time?
 
 ## DATA OVERVIEW
 
-The dashboard aggregates inbound call records with the following attributes:
+The dashboard aggregates inbound call records with attributes including:
 
 Call date and time
 
-Primary inquiry category
+Primary, secondary, and tertiary inquiry categories
 
 Caller type
 
-Handle time
+Handle time (mins:secs)
 
-Date timeline supports filtering by:
+The date timeline supports:
 
 Custom date ranges
 
+Month-level filtering
+
+Inquiry-level filtering for focused analysis
+
 ## ANALYSIS & ENGINEERING
 
-Built calculated metrics to track:
+Designed calculated metrics to track:
 
 Total call volume
 
@@ -48,22 +52,32 @@ Calls per day
 
 Inquiry-level call counts
 
-Implemented Month-over-Month (MoM) % change calculations to identify shifts in inquiry behavior
+Implemented Month-over-Month (MoM) % change logic to surface shifts in inquiry behavior and highlight emerging drivers before they appear in raw totals
 
-Enabled specific inquiry analysis to:
+Enabled inquiry-level drill-down analysis, allowing users to:
+
+Select a specific inquiry
 
 View call volume trends over time
 
-Designed logic to surface operational signals tied to workload, inquiry mix, and potential process issues
+Identify seasonality, spikes, or sustained increases
+
+Built logic to surface operational signals tied to:
+
+Workload distribution
+
+Inquiry mix changes
+
+Potential process or documentation gaps
 
 ## DASHBOARD FEATURES
 ### Inquiry Analysis
 
 Bar chart highlighting most frequent primary inquiries
 
-Ability to compare inquiry volume across time periods
+Inquiry volume comparison across time periods
 
-MoM % change metrics to detect rising or declining inquiry types
+MoM % change indicators to detect rising or declining inquiry types
 
 ### Caller Type Breakdown
 
@@ -81,8 +95,6 @@ Supports staffing and capacity planning decisions
 
 Daily trend analysis to monitor call volume spread across the week
 
-Supports staffing and capacity planning decisions
-
 ### Performance Metrics
 
 Average Handle Time (mins:secs)
@@ -91,9 +103,9 @@ Calls Per Day
 
 Metrics update dynamically based on date and inquiry filters
 
-Interactive Filtering
+### Interactive Filtering
 
-Custom Date Filtering
+Custom date range selection
 
 Inquiry selection for focused trend analysis
 
