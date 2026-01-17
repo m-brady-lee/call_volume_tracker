@@ -132,9 +132,9 @@ Translating raw call data into actionable insights
 ## SCREENSHOTS
 ![Call Capture](https://github.com/m-brady-lee/call_volume_tracker/blob/main/Call%20Capture%20-%20Anonymized.png)
 
-![Dashboard](https://github.com/m-brady-lee/call_volume_tracker/blob/main/Call%20Capture%20-%20Anonymized.png)
+![Dashboard](https://github.com/m-brady-lee/call_volume_tracker/blob/main/Dashboard%20-%20Anonymized.png)
 
-![Inquiry Over Time](https://github.com/m-brady-lee/call_volume_tracker/blob/main/Call%20Capture%20-%20Anonymized.png)
+![Inquiry Over Time](https://github.com/m-brady-lee/call_volume_tracker/blob/main/Inquiry%20Over%20Time%20-%20Anonymized.png)
 
 ## NOTES ON DATA USAGE
 
